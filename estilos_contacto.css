@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+#quinto{
+	background-color: #e8c26b;
+}
+
+body{
+	background-image: url("imgs/Fondo3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#mapa{
+	width: 100%;
+	margin-top: 70px;
+}
+
+#mapa iframe{
+	width: 100%;
+	height: 450px;
+	padding-top: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#mapa .contenedor{
+	max-width: 950px;
+	margin: auto;
+}
+
+.direccion{
+	color: #496394;
+	text-align: center;
+	background-color: #FFFFFF;
+	padding: 10px;
+}
+
+#formulario .contenedor{
+	width: 70%;
+	max-width: 950px;
+	margin: auto;
+	padding-top: 30px;
+}
+.campos{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0px;
+	opacity: 0.8;
+}
+
+#texto{
+	color: #FFFFFF;
+}
+
+#botonenviar{
+	width: auto;
+	padding: 10px 25px;
+	border: none;
+	background-color: #E8C26B;
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-bottom: 40px;
+	transform: all 1s;
+}
+
+#botonenviar:hover{
+	transform: scale(1.1);
+	background-color: #496394;
+	}
+
+#contacto{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	transform: all 1s;
+}
+
+#contacto h2:hover{
+	transform: scale(1.1);
+	color: #496394;
+	}
+
+#contacto .contenedor{
+	width: 70%;
+	max-width: 950px;
+	background-color: #91a9cd;
+	padding: 15px;
+	margin: auto;
+}
+
+.textocontacto{
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	color: #FFFFFF;
+	padding-top: 35px;
+	transform: all 1s;
+}
+
+.textocontacto:hover{
+	transform: scale(1.1);
+	color: #496394;
+	}
+
+.icocontacto{
+	width: 100%;
+	text-align: center;
+}
+
+.icocontacto a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
